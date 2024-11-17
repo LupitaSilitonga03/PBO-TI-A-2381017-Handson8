@@ -5,6 +5,10 @@ import entities.TodoList;
 public class TodoListRepositorylmpl implements TodoListRepository {
     public static TodoList[] todos = new TodoList[10];
 
+    public TodoListRepositorylmpl(TodoListRepository todoListRepository) {
+
+    }
+
     @Override
     public TodoList[] getAll() {
         return todos;

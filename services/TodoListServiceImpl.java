@@ -3,10 +3,10 @@ package services;
 import entities.TodoList;
 import repositories.TodoListRepository;
 
-public class TodoListServicelmpl implements TodoListService {
+public class TodoListServiceImpl implements TodoListService {
     private final TodoListRepository todoListRepository;
 
-    public TodoListServicelmpl(TodoListRepository todoListRepository) {
+    public TodoListServiceImpl(TodoListRepository todoListRepository) {
         this.todoListRepository = todoListRepository;
     }
 
